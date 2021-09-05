@@ -1,0 +1,17 @@
+{
+    "site_title": "Telegram",
+    "site_url": "https://telegram.org/",
+    "match_urls": "t.me/{$id}",
+    "match_is_regex": false,
+    "match_callback_class": "Kruzya\\TelegramBbMedia\\BbCode\\Helper\\Telegram",
+    "match_callback_method": "matchCallback",
+    "embed_html": "<iframe src=\"https://t.me/{$id}?embed=1\"\n        scrolling=\"no\"\n        style=\"border: medium none; overflow: hidden; min-width: 320px; height: 0px;\"\n        width=\"100%\"\n        height=\"\"\n        frameborder=\"0\">\n</iframe>",
+    "embed_html_callback_class": "",
+    "embed_html_callback_method": "",
+    "oembed_enabled": false,
+    "oembed_api_endpoint": "",
+    "oembed_url_scheme": "",
+    "oembed_retain_scripts": true,
+    "supported": true,
+    "active": true
+}
