@@ -1,8 +1,8 @@
 {
   "additional_files": [
-    "js/Kruzya/TelegramBbMedia/post-widget.js"
+    "js/kruzya/telegram-bb-media/post-widget.js"
   ],
   "minify": [
-    "js/Kruzya/TelegramBbMedia/post-widget.js"
+    "js/kruzya/telegram-bb-media/post-widget.js"
   ]
 }
